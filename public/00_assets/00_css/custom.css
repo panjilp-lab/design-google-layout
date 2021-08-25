@@ -14,14 +14,52 @@
     transform:translateY(0); transition: all 0.9s ease-in-out;
 }
 
+/* text color untuk font kecil */
+.text-color-sm {
+  color: #44464d
+}
+    
 /* panjang border */
 .border-2 {
     border-width:3px !important;
 }
 
+.text-up .text-up1{
+    display: inline-block;
+    position: relative;
+}
+
+.w-border:after {
+  width: 40px;
+  border-bottom: 4px solid blue;
+  display: block;
+  content: "";
+  position: absolute;
+}
+
+.w-border1:after {
+  width: 40px;
+  border-bottom: 4px solid #f4b400;
+  display: block;
+  content: "";
+  position: absolute;
+}
+
+.w-border2:after {
+  width: 40px;
+  border-bottom: 4px solid #0f9d58;
+  display: block;
+  content: "";
+  position: absolute;
+}
 /* padding top text */
 .pt-12 {
     padding-top: 120px;
+}
+
+/* box radius */
+.r-box {
+  border-radius: 10px;
 }
 
 .topnav {
