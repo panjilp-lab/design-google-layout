@@ -1,3 +1,19 @@
+/* hide navbar saat scroll */
+.autohide{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.9s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.9s ease-in-out;
+}
+
 /* panjang border */
 .border-2 {
     border-width:3px !important;
