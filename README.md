@@ -4,7 +4,7 @@
 
 3. framework CSS yang digunakan yaitu Bootstrap 5.0.2 dan sedikit melakukan custom CSS Script : custom.css
 
-4. layout ini tidak diatur supaya menjadi di responsive pada tampilan Handphone
+4. layout ini sudah diatur supaya responsive pada tampilan Mobile
 
 #tidak ada maksud untuk plagiat
 
